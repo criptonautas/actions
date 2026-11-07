@@ -1,11 +1,11 @@
-somos-criptonautas/discourse-ballotage-nautas main DaniW42/discourse-ballotage main
-somos-criptonautas/discourse-category-lockdown-nautas main paviliondev/discourse-category-lockdown main
-somos-criptonautas/discourse-theme-skills main discourse/discourse-theme-skills main
-somos-criptonautas/discourse-course-progress-nautas main zsviczian/discourse-course-progress main
-somos-criptonautas/discourse-animated-avatars-nautas main discourse/discourse-animated-avatars main
-somos-criptonautas/discourse-phosphor-duotone-icons main discourse/discourse-phosphor-duotone-icons main
-somos-criptonautas/discourse-search-nautas main notriddle/discourse-duckduckgo-search master
-somos-criptonautas/discourse-power-tools-nautas main JTech-Forums/JtechTools main
-somos-criptonautas/ghost-headline-theme-nautas main TryGhost/Headline main monthly
-somos-criptonautas/ghost-bunny-cdn-storage main betschki/ghost-bunny-cdn-storage main
-somos-criptonautas/discourse-community-support-nautas main VaperinaDEV/community-support main
+criptonautas/discourse-ballotage-nautas main DaniW42/discourse-ballotage main
+criptonautas/discourse-category-lockdown-nautas main paviliondev/discourse-category-lockdown main
+criptonautas/discourse-theme-skills main discourse/discourse-theme-skills main
+criptonautas/discourse-course-progress-nautas main zsviczian/discourse-course-progress main
+criptonautas/discourse-animated-avatars-nautas main discourse/discourse-animated-avatars main
+criptonautas/discourse-phosphor-duotone-icons main discourse/discourse-phosphor-duotone-icons main
+criptonautas/discourse-search-nautas main notriddle/discourse-duckduckgo-search master
+criptonautas/discourse-power-tools-nautas main JTech-Forums/JtechTools main
+criptonautas/ghost-headline-theme-nautas main TryGhost/Headline main monthly
+criptonautas/ghost-bunny-cdn-storage main betschki/ghost-bunny-cdn-storage main
+criptonautas/discourse-community-support-nautas main VaperinaDEV/community-support main

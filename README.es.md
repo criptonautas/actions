@@ -2,7 +2,7 @@
 
 [ENGLISH](README.md) | **ESPAÑOL**
 
-GitHub Actions compartidas de [somos-criptonautas](https://github.com/somos-criptonautas).
+GitHub Actions compartidas de [criptonautas](https://github.com/criptonautas).
 
 | Workflow | Qué hace |
 |---|---|

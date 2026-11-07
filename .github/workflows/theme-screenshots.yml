@@ -9,7 +9,7 @@ name: Theme screenshots
 #   permissions: { contents: write }
 #   jobs:
 #     screenshots:
-#       uses: somos-criptonautas/actions/.github/workflows/theme-screenshots.yml@main
+#       uses: criptonautas/actions/.github/workflows/theme-screenshots.yml@main
 
 on:
   workflow_call:
