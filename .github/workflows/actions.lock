@@ -4,31 +4,26 @@
 version: 'v0.0.3'
 workflows:
     '.github/workflows/theme-screenshots.yml':
-        - 'actions/cache@v5.1.0'
-        - 'actions/checkout@v6.1.0'
-        - 'discourse/.github@83e5990bc53a4e0eddabda672558e29382072bd6'
+        - 'actions/cache@v6.1.0'
+        - 'actions/checkout@v7.0.1'
+        - 'discourse/.github@6b851f5a5e6dd205764a894b986900b30ce3e50b'
     '.github/workflows/upstream-forks.yml':
-        - 'actions/checkout@v4.4.0'
+        - 'actions/checkout@v7.0.1'
     '.github/workflows/workflow-lint.yml':
-        - 'actions/checkout@v6.1.0'
+        - 'actions/checkout@v7.0.1'
 dependencies:
-    'actions/cache@v5.1.0':
-        ref: 'v5.1.0'
-        commit: 'sha1-caa296126883cff596d87d8935842f9db880ef25'
+    'actions/cache@v6.1.0':
+        ref: 'v6.1.0'
+        commit: 'sha1-55cc8345863c7cc4c66a329aec7e433d2d1c52a9'
         owner_id: 44036562
         repo_id: 215566462
-    'actions/checkout@v4.4.0':
-        ref: 'v4.4.0'
-        commit: 'sha1-11d5960a326750d5838078e36cf38b85af677262'
+    'actions/checkout@v7.0.1':
+        ref: 'v7.0.1'
+        commit: 'sha1-3d3c42e5aac5ba805825da76410c181273ba90b1'
         owner_id: 44036562
         repo_id: 197814629
-    'actions/checkout@v6.1.0':
-        ref: 'v6.1.0'
-        commit: 'sha1-d23441a48e516b6c34aea4fa41551a30e30af803'
-        owner_id: 44036562
-        repo_id: 197814629
-    'discourse/.github@83e5990bc53a4e0eddabda672558e29382072bd6':
-        ref: 'main'
-        commit: 'sha1-83e5990bc53a4e0eddabda672558e29382072bd6'
+    'discourse/.github@6b851f5a5e6dd205764a894b986900b30ce3e50b':
+        ref: 'v1'
+        commit: 'sha1-6b851f5a5e6dd205764a894b986900b30ce3e50b'
         owner_id: 3220138
         repo_id: 298616426
