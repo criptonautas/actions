@@ -44,7 +44,7 @@ jobs:
       - name: Set working directory owner
         run: chown root:root .
 
-      - uses: actions/checkout@v6.1.0
+      - uses: actions/checkout@v7.0.1
         with:
           persist-credentials: false
           repository: discourse/discourse
@@ -53,7 +53,7 @@ jobs:
 
       # Keeps the token: the last step pushes the screenshots back.
       - name: Install component
-        uses: actions/checkout@v6.1.0
+        uses: actions/checkout@v7.0.1
         with:
           path: tmp/component
           persist-credentials: true # zizmor: ignore[artipacked]
@@ -81,7 +81,7 @@ jobs:
           echo "debian_release=$DEBIAN_RELEASE" >> $GITHUB_OUTPUT
 
       - name: Bundler cache
-        uses: actions/cache@v5.1.0
+        uses: actions/cache@v6.1.0
         with:
           path: vendor/bundle
           key: ${{ runner.os }}-${{ steps.container-envs.outputs.ruby_version }}-${{ steps.container-envs.outputs.debian_release }}-gem-${{ hashFiles('**/Gemfile.lock') }}
@@ -97,7 +97,7 @@ jobs:
           bundle clean
 
       - name: Clone additional plugins
-        uses: discourse/.github/actions/clone-additional-plugins@83e5990bc53a4e0eddabda672558e29382072bd6 # v1
+        uses: discourse/.github/actions/clone-additional-plugins@6b851f5a5e6dd205764a894b986900b30ce3e50b # v1
         with:
           about_json_path: tmp/component/about.json
 
