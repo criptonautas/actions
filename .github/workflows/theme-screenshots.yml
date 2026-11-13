@@ -44,16 +44,19 @@ jobs:
       - name: Set working directory owner
         run: chown root:root .
 
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v6.1.0
         with:
+          persist-credentials: false
           repository: discourse/discourse
           fetch-depth: 1
           ref: ${{ inputs.core_ref }}
 
+      # Keeps the token: the last step pushes the screenshots back.
       - name: Install component
-        uses: actions/checkout@v6
+        uses: actions/checkout@v6.1.0
         with:
           path: tmp/component
+          persist-credentials: true # zizmor: ignore[artipacked]
           fetch-depth: 1
 
       - name: Setup Git
@@ -78,7 +81,7 @@ jobs:
           echo "debian_release=$DEBIAN_RELEASE" >> $GITHUB_OUTPUT
 
       - name: Bundler cache
-        uses: actions/cache@v5
+        uses: actions/cache@v5.1.0
         with:
           path: vendor/bundle
           key: ${{ runner.os }}-${{ steps.container-envs.outputs.ruby_version }}-${{ steps.container-envs.outputs.debian_release }}-gem-${{ hashFiles('**/Gemfile.lock') }}
