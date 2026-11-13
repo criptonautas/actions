@@ -8,7 +8,6 @@ Shared GitHub Actions for [criptonautas](https://github.com/criptonautas).
 |---|---|
 | `upstream-forks.yml` | Every Monday, keeps the "Forks behind upstream" issue up to date from `.github/forks/forks.txt` |
 | `theme-screenshots.yml` | Reusable: runs a component's `spec/system/screenshots_spec.rb` and commits the images to `docs/screenshots/` |
-| `custom.yml` | Reusable: builds a custom version of Ghost and publishes it as an artifact |
 
 ## License
 
